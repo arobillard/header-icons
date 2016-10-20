@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.5 Merriweather, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #d05c2e;
+  padding: 0.5em 0 0;
+  overflow: hidden;
+}
+
+.grain {
+  width: 40px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+  width: 33.333333%;
+  text-align: center;
+}
+
+nav a {
+  font-size: 1.125rem;
+  color: white;
+  display: block;
+  padding: .4em 0;
+  text-decoration: none;
+  border: 1px solid  #a63f38;
+}
