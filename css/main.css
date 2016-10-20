@@ -55,3 +55,7 @@ nav a {
   text-decoration: none;
   border: 1px solid  #a63f38;
 }
+
+nav a:hover {
+  background-color:  #a63f38;
+}
