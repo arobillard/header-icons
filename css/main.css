@@ -13,7 +13,7 @@ body {
 
 header {
   background-color: #d05c2e;
-  padding: 0.5em 0 0;
+  padding: 5em 0 0;
   overflow: hidden;
 }
 
@@ -43,13 +43,13 @@ nav ul {
 
 nav li {
   float: left;
-  width: 33.333333%;
+  width: 33.3333%;
   text-align: center;
 }
 
 nav a {
   font-size: 1.125rem;
-  color: white;
+  color: #fff;
   display: block;
   padding: .4em 0;
   text-decoration: none;
@@ -57,5 +57,5 @@ nav a {
 }
 
 nav a:hover {
-  background-color:  #a63f38;
+  background-color: #a63f38;
 }
